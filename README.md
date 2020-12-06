@@ -33,7 +33,7 @@ This source code is licensed under the Apache License Version 2.0 <br/>
   <a href="https://github.com/Tencent/APIJSON/blob/master/README-English.md">English</a>
   <a href="https://github.com/Tencent/APIJSON/blob/master/Document.md">通用文档</a>
   <a href="http://i.youku.com/apijson">视频教程</a>
-  <a href="http://apijson.org/auto">在线工具</a>
+  <a href="http://apijson.org/auto">在线体验</a>
 </p>
 
 <p align="center" >
@@ -131,9 +131,26 @@ APIJSON是一种专为API而生的 JSON网络传输协议 以及 基于这套协
 <br />
 
 
-### 为什么要用 APIJSON？
+### 为什么选择 APIJSON？
 前后端 关于接口的 开发、文档、联调 等 10 大痛点解析 <br />
 https://github.com/Tencent/APIJSON/wiki
+
+* 解决十大痛点 (APIJSON 大幅提振开发效率、强力杜绝联调扯皮、巧妙规避文档缺陷、非常节省流量带宽 等)
+* 开发提速巨大 (CRUD 零代码热更新自动化，APIJSONBoot 对比 SSM、SSH 等保守估计可提速 20 倍以上)
+* 腾讯官方开源 (使用 GitHub、Gitee、工蜂 等平台的官方账号开源，微信公众号、腾讯云+社区 等官方公告)
+* 社区影响力大 (GitHub 9.2K Star 在 350W Java 项目中排名前 200，远超 FLAG, BAT 等国内外绝大部分开源项目)
+* 各项荣誉成就 (腾讯开源五个第一、腾讯首个 GVP 获奖项目、腾讯后端项目 Star 第一、GitHub Java 周榜第一 等)
+* 多样用户案例 (内部用户包含 腾讯互娱、腾讯云与智慧，已登记外部用户包含 千亿资本国企、500 强上市公司 等)
+* 适用场景广泛 (社交聊天、阅读资讯、影音视频、办公学习 等各种 App、网站、公众号、小程序 等非金融类项目)
+* 周边生态丰富 (Android, iOS, Web 等各种 Demo、继承 JSON 的海量生态、零代码 接口测试 和 单元测试 工具等)
+* 文档视频齐全 (项目介绍、快速上手、安装部署 等后端、前端、客户端的 图文解说、视频教程、代码注释 等)
+* 功能丰富强大 (增删改查、分页排序、分组聚合、各种 JOIN、各种子查询、垮库跨表、性能分析 等零代码实现)
+* 使用安全简单 (自动增删改查、自动生成文档、自动管理版本、自动校验权限、自动校验参数、自动防SQL注入等)
+* 灵活定制业务 (在后端编写 远程函数，可以拿到 session、version、当前 JSON 对象 等，然后自定义处理)
+* 高质可靠代码 (代码工整规范、商业分析软件源伞 Pinpoint 代码扫描报告平均每行代码 bug 率低至 0.15%)
+* 兼容各种项目 (对各类 Web 框架集成友好且提供 SpringBoot, JFinal 的 Demo，协议不限 HTTP，与其它库无冲突)
+* 工程轻量小巧 (仅依赖 fastjson，Jar 仅 280KB，Java 文件仅 59 个共 13719 行代码，例如 APIJSONORM 4.3.1)
+* 多年持续迭代 (自 2016 年开源至今已连续 4 年 2000+ Commits、70+ Releases，不断更新迭代中...)
 
 
 ### 常见问题
@@ -142,11 +159,11 @@ https://github.com/Tencent/APIJSON/wiki
 https://github.com/Tencent/APIJSON/issues/101
 
 #### 2.如何控制权限？
-在 Access 表配置校验规则，默认不允许访问，需要对 每张表、每种角色、每种操作 做相应的配置，粒度细分到 Row 级 <br />
+在 Access 表配置校验规则，默认不允许访问，需要对 每张表、每种角色、每种操作 做相应的配置，粒度细分到行级 <br />
 https://github.com/Tencent/APIJSON/issues/12
 
 #### 3.如何校验参数？
-在 Request 表配置校验规则 structure，提供 NECESSARY、TYPE、VERIFY 等通用方法，可通过 远程函数 来完全自定义 <br />
+在 Request 表配置校验规则 structure，提供 MUST、TYPE、VERIFY 等通用方法，可通过 远程函数 来完全自定义 <br />
 https://github.com/Tencent/APIJSON/wiki#%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86
 
 <br />
@@ -183,8 +200,8 @@ https://github.com/Tencent/APIJSON/issues?q=is%3Aissue+is%3Aclosed
   <a href="http://t-think.com"><img src="http://apijson.org/images/t-think.com.png" height="90"></a>
   <a href="http://www.8soo.com"><img src="http://apijson.org/images/www.8sso.com.jpeg" height="90"></a>
   <a href="https://www.9800.com"><img src="http://apijson.org/images/hh.com.png" height="90"></a>
-  <a href="http://www.aipaipai-inc.com"><img src="http://apijson.org/images/www.aipaipai-inc.com.png" height="90"></a>
   <a href="https://www.shulian8.com"><img src="http://apijson.org/images/www.shulian8.com.png" height="90"></a>
+  <a href="http://www.aipaipai-inc.com"><img src="http://apijson.org/images/www.aipaipai-inc.com.png" height="90"></a>
   <a href="http://www.hec-bang.com"><img src="http://apijson.org/images/www.hec-bang.com.png" height="90"></a>
   <a href="http://www.hngtrust.com"><img src="http://www.hngtrust.com/r/cms/www/default/images/logo.png" height="90"></a>
 <br />
